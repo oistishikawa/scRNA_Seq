@@ -11,7 +11,4 @@
 module load sra-tools/2.8.2-1
 
 prefetch SRR8207938
-mv ~/ncbi/public/sra/SRR8207938.sra /flash/IshikawaU/Masato/scRNAseq_Exhaustion$
-
 prefetch SRR8207939
-mv ~/ncbi/public/sra/SRR8207939.sra /flash/IshikawaU/Masato/scRNAseq_Exhaustion$
