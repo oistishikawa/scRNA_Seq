@@ -1,0 +1,7 @@
+#!/bin/bash
+#SBATCH -p compute
+#SBATCH -t 96:00:00
+#SBATCH --mem=128G
+#SBATCH -c 8
+
+/home/m/masato-hirota/bamtofastq-1.3.2 bamfiles_PTC85037_PBMC_possorted_genome_bam.bam.1 ../data
