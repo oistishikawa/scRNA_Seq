@@ -20,7 +20,7 @@ fastqs=(your_fastq)
 sample=(your_sample_prefix)
 
 cellranger count --id=$id \
-                 --transcriptome=/bucket/IshikawaU/refdata-gex-mm10-2020-A \
+                 --transcriptome=/bucket/IshikawaU/cellranger/6.0.0/refdata-gex-mm10-2020-A \
                  --fastqs=$fastqs \
                  --sample=$sample \
                  --localcores=8 \
